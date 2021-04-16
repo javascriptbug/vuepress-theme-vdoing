@@ -1,0 +1,45 @@
+.baseinfo-item-header{
+    display: flex;
+    height: 44px;
+    line-height: 44px;
+    border-bottom: 1px solid #d9d9d9;
+    font-family: MicrosoftYaHei;
+    font-size: 14px;
+    color: #303133;
+    align-items:center;
+    justify-content:space-between;
+    background: #fff;
+  }
+  .baseinfoheader-wrap{
+    display: flex;
+    align-items:center;
+  }
+  .baseinfoheader-icon{
+    width: 4px;
+    height: 16px;
+    background: #409EFF;
+    margin-left: 8px;
+  }
+  .baseinfoheader-tit{
+    margin-left: 6px;
+  }
+  .baseinfoheader-tip{
+      font-family: MicrosoftYaHei;
+      font-size: 12px;
+      color: #F94201;
+      margin-left: 10px;
+  }
+  .baseinfoheader-sub{
+      font-family: MicrosoftYaHei;
+      font-size: 12px;
+      color: #90939a;
+      margin-left: 10px;
+  }
+  .baseinfoheader-last{
+    font-family: MicrosoftYaHei;
+    font-size: 12px;
+    color: #606266;
+    text-align: left;
+    line-height: 14px;
+    margin-right:20px;
+  }

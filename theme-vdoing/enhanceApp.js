@@ -8,6 +8,7 @@ Vue.component(CodeGroup)
 
 //  注：此文件在浏览器端运行
 import 'ant-design-vue/dist/antd.min.css';
+import '../packages/theme-default/lib/index.css'
 import postsMixin from '@theme/mixins/posts'
 
 
