@@ -11,7 +11,7 @@
 </template>
 <script>
   export  default {
-    name: 'g-header',
+    name: 'm-title',
     data() {
       return {
       };

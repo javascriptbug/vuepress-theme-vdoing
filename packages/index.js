@@ -3,10 +3,10 @@
 * Date: 21/04/16
 */
 import Vue from 'vue'
-import Gheader from './g-header/index'
+import Gtitle from './m-title/index'
 
 const components = [
-  Gheader,
+  Gtitle,
 ]
 const install = function(Vue) {
   if(install.installed) return
@@ -16,5 +16,5 @@ const install = function(Vue) {
 
 export default {
   install,
-  Gheader,
+  Gtitle,
 }
