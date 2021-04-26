@@ -11,7 +11,7 @@
 </template>
 <script>
   export  default {
-    name: 'm-title',
+    name: 'MTitle',
     data() {
       return {
       };

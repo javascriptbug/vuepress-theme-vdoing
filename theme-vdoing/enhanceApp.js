@@ -6,9 +6,9 @@ import CodeGroup from "@theme/global-components/CodeGroup.vue"
 Vue.component(CodeBlock)
 Vue.component(CodeGroup)
 
-//  注：此文件在浏览器端运行
+//  注：此文件在浏览器端运行 ~ant-design-vue/dist/antd.less
 import 'ant-design-vue/dist/antd.min.css';
-import '../packages/theme-default/lib/index.css'
+import '../munit/packages/theme-default/lib/index.less'
 import postsMixin from '@theme/mixins/posts'
 
 

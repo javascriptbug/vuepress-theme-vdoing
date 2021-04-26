@@ -1,12 +1,15 @@
 /*
 * @author chenhaiyong
-* Date: 21/04/16
+* Date: 18/12/25
 */
-import Vue from 'vue'
-import Gtitle from './m-title/index'
 
+
+import MTitle from '../packages/m-title/index'
+import MCascader from '../packages/m-cascader/index'
 const components = [
-  Gtitle,
+ 
+  MTitle,
+  MCascader
 ]
 const install = function(Vue) {
   if(install.installed) return
@@ -16,5 +19,7 @@ const install = function(Vue) {
 
 export default {
   install,
-  Gtitle,
+
+  MTitle,
+  MCascader
 }

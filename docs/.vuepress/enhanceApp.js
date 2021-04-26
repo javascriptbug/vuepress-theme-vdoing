@@ -1,6 +1,6 @@
 // import vue from 'vue/dist/vue.esm.browser'
 import Antd from 'ant-design-vue';
-import Gvunit from '../../packages/index'
+import Munit from '../../munit'
 // console.log(G)
 export default ({
   Vue, // VuePress 正在使用的 Vue 构造函数
@@ -9,6 +9,6 @@ export default ({
   siteData // 站点元数据
 }) => {
   Vue.use(Antd) 
-  Vue.use(Gvunit) 
+  Vue.use(Munit) 
   // window.Vue = vue // 使页面中可以使用Vue构造函数 （使页面中的vue demo生效）
 }
