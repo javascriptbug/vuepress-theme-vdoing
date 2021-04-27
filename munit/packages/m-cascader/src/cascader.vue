@@ -129,7 +129,7 @@ import { isEqual, isEmpty, kebabCase } from '../../../src/utils/util';
 import { isUndefined, isFunction } from '../../../src/utils/types';
 import { isDef } from '../../../src/utils/shared';
 import { addResizeListener, removeResizeListener } from '../../../src/utils/resize-event';
-import debounce from '../../../src/throttle-debounce/debounce';
+import { debounce } from 'throttle-debounce';
 
 const { keys: KeyCode } = AriaUtils;
 const MigratingProps = {

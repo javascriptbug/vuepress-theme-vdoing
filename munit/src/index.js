@@ -13,7 +13,7 @@ const components = [
 	MCascader,
 	MCascaderPanel
 ]
-const install = function(Vue) {
+const install = function(Vue) { 
 	if (install.installed) return
 	components.map(component => Vue.component(component.name, component))
 }
