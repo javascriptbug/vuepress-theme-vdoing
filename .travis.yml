@@ -13,4 +13,4 @@ deploy:
   token: $duan
   keep_history: true
   on:
-    branch: master
+    branch: main
